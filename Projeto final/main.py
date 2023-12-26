@@ -35,18 +35,6 @@ ID  Jogo            Genero            Desenvolvedor
         print(f'{cont:03d} {item.nome:<14.14}  {item.genero:<16.16}  {item.desenvolvedor:.16s}')
     sleep(1)
 
-
-#Necessário a implementação 
-        # Quantidade de itens carregados;
-#   Quantidade de itens descartados;
-#       O Sistema operacional que tem mais títulos de jogos disponíveis;
-#           Quantos jogos foram lançados em cada ano, por ordem decrescente de ano. Por exemplo:
-                # 1997: 12
-                # 1998: 15
-                # 1999: 7
-
-# ----------------------------------------------------------------------------------------------------------------------
-
 jogos = converte_csv_em_lista("computer_games.csv")
 gamer_center = CentralDeJogos()
 history_search = HistorySearch()
